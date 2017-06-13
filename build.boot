@@ -27,7 +27,7 @@
    You can use 'profile-tasks' like `production` and `development`
    to change parameters (like optimizations level of the cljs compiler)"
   []
-  (comp (speak)
+  (comp ;(speak)
         
         (cljs)
         ))
