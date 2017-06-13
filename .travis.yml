@@ -24,6 +24,7 @@ cache:
 deploy:
   provider: pages
   local_dir: target/
+  repo: devbarcamp.github.io
   skip_cleanup: true
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   on:
