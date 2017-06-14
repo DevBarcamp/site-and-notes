@@ -121,8 +121,7 @@
         [paren-box focus?]
         [:p "- OR -"]
         [:a {:href "#"
-             :style {:font-family "Helvetica, Arial"
-                     :font-weight "bold"}
+             :style {:font-family "Helvetica, Arial"}
              :on-click #(swap! flipped? not)}
           "Just show me everyting"]])))
 
@@ -172,7 +171,6 @@
                    :alt (-> @app-state :events last :location)}]])]
       [:a {:href "#"
            :style {:font-family "Helvetica, Arial"
-                   :font-weight "bold"
                    :margin-top "10px"}
            :on-click #(swap! flipped? not)}
         "Give me back! My Terminal!"]]))
