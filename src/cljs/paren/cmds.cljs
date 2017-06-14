@@ -58,7 +58,7 @@
   {:history []
    :events [{:date "2016-10-08" :time "1:00-3:00" :location "Block A, 2/F, Hong Kong Industrial Building, 444-452 Des Voeux Road West, Hong Kong  "}
             {:date "2017-07-08" :time "1:00-3:00" :location "Unit 05-07, 7/F, Block B, Chung Mei Centre, 15 Hing Yip Street, Kwun Tong, Kowloon, Hong Kong" :gmap "https://maps.google.com/maps?f=q&hl=en&q=15+Hing+Yip+Street%2C+Kwun+Tong%2C%2C+Kowloon%2C+hk" :gmap-img "https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDw_EVAIB36VOVoO-oJEX4RoQhG-JHQ8xY&center=Chung+Mei+Centre,+15+Hing+Yip+Street,+Kwun+Tong,+Kowloon,+Hong+Kong&zoom=16&scale=1&size=400x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7CChung+Mei+Centre,+15+Hing+Yip+Street,+Kwun+Tong,+Kowloon,+Hong+Kong"}]
-   :social {"Facebook" "https://www.facebook.com/DevBarcamp"
+   :social {"Facebook" "https://www.facebook.com/devbarcamp.hk/"
             "Meetup" "https://www.meetup.com/Dev-Barcamp/"}
    :title "Dev Barcamp #"
    :subtitle "香港人香港話既 Barcamp"
@@ -162,7 +162,7 @@ Type '?' to continue")}]])})
                   :justify-content "space-around"
                   :align-items "center"
                   :width "200px"}}
-         [:a {:href "https://www.facebook.com/DevBarcamp"
+         [:a {:href "https://www.facebook.com/devbarcamp.hk/"
               :style {:display "block"}}
            [:i.fa.fa-facebook-official.fa-5x]
            [:div "Facebook"]]

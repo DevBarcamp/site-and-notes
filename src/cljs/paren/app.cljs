@@ -151,7 +151,7 @@
                     :justify-content "space-around"
                     :align-items "center"
                     :width "120px"}}
-           [:a.fb {:href "https://www.facebook.com/DevBarcamp"
+           [:a.fb {:href "https://www.facebook.com/devbarcamp.hk/"
                    :style {:display "block"}}
              [:i.fa.fa-facebook-official.fa-2x]]
            [:a.mu {:href "https://www.meetup.com/Dev-Barcamp/"
