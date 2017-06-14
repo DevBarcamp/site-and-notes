@@ -121,7 +121,7 @@
         [paren-box focus?]
         [:p "- OR -"]
         [:a {:href "#"
-             :style {:font-family "'Amatic SC', cursive"
+             :style {:font-family "Helvetica, Arial"
                      :font-weight "bold"}
              :on-click #(swap! flipped? not)}
           "Just show me everyting"]])))
@@ -171,7 +171,7 @@
                    :style {:width (str (min (- (:w @viewport) 10) 400) "px") :height "100%"} 
                    :alt (-> @app-state :events last :location)}]])]
       [:a {:href "#"
-           :style {:font-family "'Amatic SC', cursive"
+           :style {:font-family "Helvetica, Arial"
                    :font-weight "bold"
                    :margin-top "10px"}
            :on-click #(swap! flipped? not)}
