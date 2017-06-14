@@ -22,6 +22,6 @@ To deploy to Github Pages
 
 ## License
 
-Copyright © 2013-2016 Alan Dipert and Micha Niskin
+Copyright © 2017 Albert Lai
 
 Distributed under the Eclipse Public License, the same as Clojure.
