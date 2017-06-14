@@ -25,6 +25,8 @@
                    :position "absolute"
                    :width "100%"
                    :height "100%"
+                   :transform "rotateX(0deg)"
+                   :-webkit-transform "rotateX(0deg)"
                    :backface-visibility "hidden"
                    :-webkit-backface-visibility "hidden"}}
           front]
@@ -33,8 +35,8 @@
                    :position "absolute"
                    :width "100%"
                    :height "100%"
-                   :transform "rotateY(180deg)"
-                   :-webkit-transform "rotateY(180deg)"
+                   :transform "rotateX(0deg) rotateY(180deg)"
+                   :-webkit-transform "rotateX(0deg) rotateY(180deg)"
                    :backface-visibility "hidden"
                    :-webkit-backface-visibility "hidden"}};
           back]]]))
